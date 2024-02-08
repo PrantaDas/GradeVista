@@ -1,0 +1,30 @@
+{
+  "name": "grammy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/menu": "^1.2.1",
+    "@grammyjs/stateless-question": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.20.3",
+    "puppeteer": "^21.9.0",
+    "rotating-file-stream": "^3.1.1",
+    "tslog": "^4.9.2",
+    "ws": "^8.16.0"
+  }
+}
